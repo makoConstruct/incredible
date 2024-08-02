@@ -18,9 +18,9 @@ test -e lodash.min.js ||
 test -e backbone-min.js ||
 	wget -c https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js
 test -e joint.min.js ||
-	wget -c https://cdnjs.cloudflare.com/ajax/libs/jointjs/0.9.6/joint.min.js
+	wget -c https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.6.3/joint.min.js
 test -e joint.min.css ||
-	wget -c https://cdnjs.cloudflare.com/ajax/libs/jointjs/0.9.6/joint.min.css
+	wget -c https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.6.3/joint.min.css
 test -e i18next-1.10.1.min.js ||
         wget -c https://raw.githubusercontent.com/i18next/i18next/1.10.1/release/i18next-1.10.1.min.js
 test -e FileSaver.min.js ||

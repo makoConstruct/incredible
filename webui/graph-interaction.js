@@ -21,7 +21,7 @@ function create_paper() {
     width: "100%",
     height: "100%",
     gridSize: 10,
-    snapLinks: true,
+    snapLinks: { radius: 280 },
     defaultLink: function (elementView, magnet) {
       connection_counter++;
       return new joint.shapes.incredible.Link({
